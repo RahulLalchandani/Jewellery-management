@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{349CFAC8-0265-4644-B75F-F70B725E65E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>jewellerymanagementsystem.My.MyApplication</StartupObject>
+    <RootNamespace>jewellerymanagementsystem</RootNamespace>
+    <AssemblyName>jewellerymanagementsystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>jewellerymanagementsystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>jewellerymanagementsystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Aha-Soft-Jewelry-Diamond.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="customerSales.Designer.vb">
+      <DependentUpon>customerSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="customerSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ordersViewsAll.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ordersViewsAll.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="productswithimagepath.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>productswithimagepath.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="supplierAddProduct.Designer.vb">
+      <DependentUpon>supplierAddProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplierAddProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplierViewProduct.Designer.vb">
+      <DependentUpon>supplierViewProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplierViewProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplierHome.Designer.vb">
+      <DependentUpon>supplierHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplierHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminLogin.Designer.vb">
+      <DependentUpon>adminLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminHome.Designer.vb">
+      <DependentUpon>adminHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jewelDataSet1.vb">
+      <DependentUpon>jewelDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="supplierRegister.Designer.vb">
+      <DependentUpon>supplierRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplierRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jewelDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jewelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jewelDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jewelDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="supplierLogin.Designer.vb">
+      <DependentUpon>supplierLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplierLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerRegister.Designer.vb">
+      <DependentUpon>customerRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="customerRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerLogin.Designer.vb">
+      <DependentUpon>CustomerLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SuppliersViewData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuppliersViewData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="supplierViewProducts.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>supplierViewProducts.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="customerSales.resx">
+      <DependentUpon>customerSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplierAddProduct.resx">
+      <DependentUpon>supplierAddProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplierViewProduct.resx">
+      <DependentUpon>supplierViewProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplierHome.resx">
+      <DependentUpon>supplierHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminLogin.resx">
+      <DependentUpon>adminLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminHome.resx">
+      <DependentUpon>adminHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplierRegister.resx">
+      <DependentUpon>supplierRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplierLogin.resx">
+      <DependentUpon>supplierLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerRegister.resx">
+      <DependentUpon>customerRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerLogin.resx">
+      <DependentUpon>CustomerLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jewelDataSet.xsc">
+      <DependentUpon>jewelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jewelDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jewelDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jewelDataSet.xss">
+      <DependentUpon>jewelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jewelDataSet1.xsc">
+      <DependentUpon>jewelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="jewelDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jewelDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jewelDataSet1.xss">
+      <DependentUpon>jewelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="ordersViewsAll.xsc">
+      <DependentUpon>ordersViewsAll.xsd</DependentUpon>
+    </None>
+    <None Include="ordersViewsAll.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ordersViewsAll.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ordersViewsAll.xss">
+      <DependentUpon>ordersViewsAll.xsd</DependentUpon>
+    </None>
+    <None Include="productswithimagepath.xsc">
+      <DependentUpon>productswithimagepath.xsd</DependentUpon>
+    </None>
+    <None Include="productswithimagepath.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>productswithimagepath.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="productswithimagepath.xss">
+      <DependentUpon>productswithimagepath.xsd</DependentUpon>
+    </None>
+    <None Include="SuppliersViewData.xsc">
+      <DependentUpon>SuppliersViewData.xsd</DependentUpon>
+    </None>
+    <None Include="SuppliersViewData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SuppliersViewData.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SuppliersViewData.xss">
+      <DependentUpon>SuppliersViewData.xsd</DependentUpon>
+    </None>
+    <None Include="supplierViewProducts.xsc">
+      <DependentUpon>supplierViewProducts.xsd</DependentUpon>
+    </None>
+    <None Include="supplierViewProducts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>supplierViewProducts.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="supplierViewProducts.xss">
+      <DependentUpon>supplierViewProducts.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aha-Soft-Jewelry-Diamond.ico" />
+    <Content Include="jewel.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UploadedImages\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

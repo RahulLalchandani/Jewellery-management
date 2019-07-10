@@ -1,0 +1,352 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+jewellerymanagementsystem
+</name>
+</assembly>
+<members>
+<member name="T:jewellerymanagementsystem.SuppliersViewData.suppliersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.SuppliersViewData.suppliersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.SuppliersViewData.suppliersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.SuppliersViewData">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.SuppliersViewDataTableAdapters.suppliersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager.UpdateUpdatedRows(jewellerymanagementsystem.SuppliersViewData,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager.UpdateInsertedRows(jewellerymanagementsystem.SuppliersViewData,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager.UpdateDeletedRows(jewellerymanagementsystem.SuppliersViewData,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager.UpdateAll(jewellerymanagementsystem.SuppliersViewData)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:jewellerymanagementsystem.SuppliersViewDataTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAll.ordersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAll.ordersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAll.ordersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAll">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAllTableAdapters.ordersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager.UpdateUpdatedRows(jewellerymanagementsystem.ordersViewsAll,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager.UpdateInsertedRows(jewellerymanagementsystem.ordersViewsAll,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager.UpdateDeletedRows(jewellerymanagementsystem.ordersViewsAll,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager.UpdateAll(jewellerymanagementsystem.ordersViewsAll)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:jewellerymanagementsystem.ordersViewsAllTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProducts.productsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProducts.productsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProducts.productsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProducts">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProductsTableAdapters.productsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager.UpdateUpdatedRows(jewellerymanagementsystem.supplierViewProducts,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager.UpdateInsertedRows(jewellerymanagementsystem.supplierViewProducts,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager.UpdateDeletedRows(jewellerymanagementsystem.supplierViewProducts,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager.UpdateAll(jewellerymanagementsystem.supplierViewProducts)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:jewellerymanagementsystem.supplierViewProductsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:jewellerymanagementsystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:jewellerymanagementsystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepath.productsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepath.productsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepath.productsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepath">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepathTableAdapters.productsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager.UpdateUpdatedRows(jewellerymanagementsystem.productswithimagepath,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager.UpdateInsertedRows(jewellerymanagementsystem.productswithimagepath,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager.UpdateDeletedRows(jewellerymanagementsystem.productswithimagepath,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager.UpdateAll(jewellerymanagementsystem.productswithimagepath)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:jewellerymanagementsystem.productswithimagepathTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.adminsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.customersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.ordersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.productsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.suppliersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.adminsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.customersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.ordersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.productsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.suppliersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.adminsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.customersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.ordersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.productsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1.suppliersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.adminsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.customersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.ordersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.productsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.suppliersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(jewellerymanagementsystem.jewelDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(jewellerymanagementsystem.jewelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(jewellerymanagementsystem.jewelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager.UpdateAll(jewellerymanagementsystem.jewelDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:jewellerymanagementsystem.jewelDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
